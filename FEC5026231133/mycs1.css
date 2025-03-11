@@ -32,7 +32,7 @@ a:hover {
   font-weight: bold;
 }
 
-.navbar ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -40,11 +40,11 @@ a:hover {
   background-color: #333;
 }
 
-.navbar li {
+li {
   float: left;
 }
 
-.navbar li a {
+li a {
   display: block;
   color: white;
   text-align: center;
@@ -52,15 +52,15 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar li a:link {
+li a:link {
   color: white;
 }
 
-.navbar li a:visited {
+li a:visited {
   color: white;
 }
 
-.navbar li a:hover {
+li a:hover {
   background-color: #111;
 }
 
@@ -77,12 +77,12 @@ a:hover {
     margin-right: 10px;
   }
   
-  .navbar li {
+  li {
     float: none;
     width: 100%;
   }
   
-  .navbar li a {
+  li a {
     text-align: center;
     padding: 10px;
     width: 100%;
