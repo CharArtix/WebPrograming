@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .card-custom {
   border: 1px solid #e0e0e0;
   border-radius: 0.25rem;
