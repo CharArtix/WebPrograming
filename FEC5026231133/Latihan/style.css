@@ -1,77 +1,49 @@
-body {
-  font-family: "Lato";
-  background-color: whitesmoke;
-  color: rgb(31, 31, 31);
-  padding-top: 120px;
+.card-custom {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.25rem;
+  padding: 8px;
+  text-align: center;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 95px;
 }
-
-.logo-img {
-  max-width: 40px;
-  height: auto;
+.card-custom img {
+  max-height: 50px;
+  width: auto;
+  margin: 0 auto;
+  object-fit: contain;
 }
-
-.click-more {
+.card-custom h6 {
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+.badge-available {
+  color: green;
+  font-size: 0.6rem;
+}
+.badge-not-available {
+  color: red;
+  font-size: 0.6rem;
+}
+.badge-new {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #007bff;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-size: 0.6rem;
+}
+.btn-click-more {
   background-color: black;
   color: white;
   border-radius: 20px;
   padding: 5px 10px;
-  margin: 15px auto;
-  display: inline-block;
   text-decoration: none;
   font-size: 14px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.click-more:hover {
-  background-color: black;
-  color: white;
-  text-decoration: none;
-}
-
-.section-title {
-  font-weight: bold;
-  font-size: 18px;
-  margin: 20px 0;
-  text-align: left;
-  display: block;
-  padding-left: 15px;
-  text-align: center;
-}
-
-.borrowed-item {
-  background-color: #f8f9fa;
-  border-radius: 10px;
-  padding: 15px;
-  margin-bottom: 15px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-.borrowed-item h5 {
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-
-.borrowed-item p {
-  font-size: 14px;
-  margin-bottom: 3px;
-  color: #6c757d;
-}
-
-.borrowed-item .date {
-  color: red;
-  font-weight: bold;
-}
-
-.borrowed-item .time {
-  color:red;
-}
-
-.borrowed-item .equipment {
-  font-weight: bold;
-}
-
-.arrow-right {
-  float: right;
-  font-size: 20px;
-  color: #6c757d;
 }
